@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rh.abc
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: amugagaadv/audgirka
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/amugagaadv/audgirka
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: collection-project
+  system: ABC
+  lifecycle: production
+  owner: Ajinkya
